@@ -1410,7 +1410,7 @@ function submitForm(e) {
       body: JSON.stringify(data)
     }).then(() => {
       form.style.opacity = '0';
-      form.style.transition = 'opacity 0.5s';
+      form.style.transition = 'opacity 0.1s';
       setTimeout(() => {
         form.style.display = 'none';
         document.getElementById('successMsg').classList.add('show');
